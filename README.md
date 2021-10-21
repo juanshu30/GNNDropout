@@ -1,5 +1,5 @@
 # Understanding Dropout for Graph Neural Network
-<img alt="WP Reliable Cookie Bar logo" src="../Figure/dropout_schemes2.pdf?raw=true" height="100" width="100" align="right">
+<img alt="WP Reliable Cookie Bar logo" src="../dropout_schemes2.pdf?raw=true" height="100" width="100" align="right">
 
 About
 ====
