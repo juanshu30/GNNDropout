@@ -20,11 +20,11 @@ Sub-directories
 ====
 - [figures] contains the figures that are used in the paper.
 - [shallow Network] contains implementation of our model for the disease gene network.
- - PPI
- - cora
+  - PPI
+  - cora
 - [Deep Network] contains implementation of our model for the disease gene network.
- - PPI
- - cora
+  - PPI
+  - cora
 
 Data
 ====
