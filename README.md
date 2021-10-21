@@ -13,7 +13,7 @@ This directory contains the code and resources of the following paper:
 Overview of the Model
 ====
 The model diagram can be viewed from the figure.
-<img width="400" height="600" src="https://github.com/juanshu30/GNNDropout/blob/main/Figure/LCD_AHD.pdf"/>
+<img width="400" height="600" src="https://github.com/juanshu30/GNNDropout/blob/main/Figure/LCD_AHD.PDF"/>
 
 
 Sub-directories
