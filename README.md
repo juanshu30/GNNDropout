@@ -20,7 +20,7 @@ Overview of the Model
 
 ![LCD and AHD](Figure/LCD_AHD.pdf)
 
-<img width="400" height="600" src="https://github.com/juanshu30/Disease-Gene-Prioritization-with-Privileged-Information-and-Heteroscedastic-Dropout/blob/main/figures/model.png"/>
+<img width="400" height="600" src="https://github.com/juanshu30/GNNDropout/blob/main/Figure/1.png"/>
 
 
 
