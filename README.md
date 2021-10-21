@@ -13,6 +13,7 @@ This directory contains the code and resources of the following paper:
 Overview of the Model
 ====
 - The diagram of layer compensation dropout (LCD) and adaptive heteroscedastic dropout(AHD) can be viewed from the figure.
+
 <h2></h2>
 
 ![LCD and AHD](https://github.com/juanshu30/GNNDropout/blob/main/Figure/LCD_AHD.pdf)
