@@ -16,7 +16,7 @@ Overview of the Model
 
 <h2></h2>
 
-![LCD and AHD](https://github.com/juanshu30/GNNDropout/blob/main/Figure/LCD_AHD.pdf)<br>
+![LCD and AHD](Figure/LCD_AHD.pdf)
 
 
 
