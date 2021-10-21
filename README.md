@@ -11,15 +11,17 @@ This directory contains the code and resources of the following paper:
 
 - A figure reflect how dropout differs in CNNs and GNNs from the follow figure:
 
+<p align="center">
 <img width="600" height="300" src="https://github.com/juanshu30/GNNDropout/blob/main/Figure/dropoutSchema.png"/>
-
+</p>
 
 Overview of the Model
 ====
 - The diagram of layer compensation dropout (LCD) and adaptive heteroscedastic dropout(AHD) can be viewed from the figure.
 
+<p align="center">
 <img width="600" height="200" src="https://github.com/juanshu30/GNNDropout/blob/main/Figure/LCD_AHD.png"/>
-
+</p>
 
 
 Sub-directories
