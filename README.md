@@ -9,6 +9,10 @@ This directory contains the code and resources of the following paper:
 
 - We study the different dropout schemes in graph neural network, which has been used widely used but lack of careful study and deep understanding. We first study the difference between dropout in GNNs and CNNs and then propose two novel dropout schemes that can overcome the current drawbacks of GNN dropout schemes. We then carefully study the performance of different dropout schemes in different settings. Lastly, we theorettically study how different dropout schemes can help mitigate over-smoothing problems.
 
+- A figure reflect how dropout differs in CNNs and GNNs from the follow figure:
+
+![CNN-GNN-Dropout](dropout_schemes2.pdf)
+
 
 Overview of the Model
 ====
