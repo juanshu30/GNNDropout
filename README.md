@@ -18,7 +18,7 @@ Overview of the Model
 ====
 - The diagram of layer compensation dropout (LCD) and adaptive heteroscedastic dropout(AHD) can be viewed from the figure.
 
-![LCD and AHD](Figure/LCD_AHD.pdf)
+![LCD and AHD](Figure/LCD.pdf)
 
 
 
