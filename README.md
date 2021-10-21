@@ -14,7 +14,7 @@ Overview of the Model
 ====
 - The model diagram can be viewed from the figure.
 
-![ScreenShot](./juanshu30/GNNDropout/blob/main/Figure/LCD_AHD.pdf)
+![LCD and AHD](https://github.com/juanshu30/GNNDropout/blob/main/Figure/LCD_AHD.pdf)
 
 
 
