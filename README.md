@@ -54,4 +54,7 @@ There are two benchmark datasets used in this study and both of them can be load
 Code Usage
 ====
 - To run the code, you need python (3.7 I used) installed and other packages, such as pytorch(1.5.0), pytorch-geometric(1.6.1), numpy, pandas, matplotlib. 
-- 
+- More configurations are in the code.
+- Example code:
+  - python Cora_AHD.py --num_epoch 500 -model 1 --fc 1 -dr 0.1 -Gaus 0 -nn 20
+  - python PPI_FAD_Node.py --num_epoch 200 --model 2 -dr 0.1
