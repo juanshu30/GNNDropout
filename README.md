@@ -14,7 +14,7 @@ Overview of the Model
 ====
 We introduce LUPI_RGCN algorithm to address the gene disease prioritization problem. To achieve this goal, we develop a Heteroscedastic Gaussian Dropout algorithm, where the dropout probability of the GNN model is determined by another GNN model with a mirrored GNN architecture. The model is trained under a VAE framework with reparameterization trick. 
 
-<img width="400" height="600" src="https://github.com/juanshu30/GNNDropout/blob/main/Figure/dropout_schemes2.pdf">
+![aa](https://github.com/juanshu30/GNNDropout/blob/main/Figure/dropout_schemes2.pdf")
 
 Sub-directories
 ====
