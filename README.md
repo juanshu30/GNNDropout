@@ -13,7 +13,7 @@ This directory contains the code and resources of the following paper:
 Overview of the Model
 ====
 The model diagram can be viewed from the figure.
-![LCD_AHD](https://github.com/juanshu30/GNNDropout/blob/main/Figure/GS_LCD.pdf)
+![LCD_AHD](https://github.com/juanshu30/GNNDropout/blob/main/Figure/GS_LCD.pdf "Cow1")
 
 
 Sub-directories
