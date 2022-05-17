@@ -46,9 +46,9 @@ Gaussian = {0:torch.zeros,1:torch.ones}
 GauMean = Gaussian[args.Gaus]
 #Load the data
 
-dataset_train = PPI(root='/home/shu30/CS590/PPI')
-dataset_val = PPI(root='/home/shu30/CS590/PPI',split="val")
-dataset_test = PPI(root='/home/shu30/CS590/PPI',split="test")
+dataset_train = PPI(root='/temp/PPI')
+dataset_val = PPI(root='/temp/PPI',split="val")
+dataset_test = PPI(root='/temp/PPI',split="test")
     
 #Define Dataloader
 train_loader = DataLoader(dataset_train, batch_size=1, shuffle=True)
@@ -177,5 +177,3 @@ val_accs.append(test(val_loader,TRAIN))
 test_accs.append(test(test_loader,TRAIN))
 print(test(test_loader,TRAIN))
     
-    
-#np.savetxt("/home/shu30/Research_GraphDropout/AAAI/result/PPI_AHD.txt",test_accs)
