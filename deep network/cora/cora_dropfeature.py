@@ -115,5 +115,4 @@ for i in np.array([8, 16, 32, 64]):
     val_accs.append(val_acc)
     print(test_acc)
 
-    
-np.savetxt("/home/shu30/Research_GraphDropout/AAAI/result_deep/GS_cora_dropF.txt",test_accs)
+   
