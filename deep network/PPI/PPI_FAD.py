@@ -95,9 +95,9 @@ losses = []
 
 for i in np.array([8, 16, 32, 64]):
     
-    dataset_train = PPI(root='/home/shu30/CS590/PPI')
-    dataset_val = PPI(root='/home/shu30/CS590/PPI',split="val")
-    dataset_test = PPI(root='/home/shu30/CS590/PPI',split="test")
+    dataset_train = PPI(root='./PPI')
+    dataset_val = PPI(root='./PPI',split="val")
+    dataset_test = PPI(root='./PPI',split="test")
     
     #Define Dataloader
     train_loader = DataLoader(dataset_train, batch_size=1, shuffle=True)
