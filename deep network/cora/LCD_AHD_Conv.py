@@ -172,4 +172,3 @@ for i in np.array([8,16,32,64]):
     log = 'best Epoch: {:03d}, Val loss: {:.4f}, Test acc: {:.4f}'
     print(log.format(best_epoch, best_val_loss, test_acc))
     
-#np.savetxt("/home/shu30/Research_GraphDropout/AAAI/result_deep/GS_cora_ADFF.txt",test_accs)
