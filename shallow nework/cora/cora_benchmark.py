@@ -19,31 +19,6 @@ import argparse
 dataset = Planetoid(root='/tmp/Cora', name='Cora')
 n_features = dataset.num_node_features
 loader = DataLoader(dataset, batch_size=1, shuffle=True)
-#import copy
-#import random
-#np.random.seed(1)
-#index = random.sample(np.arange(0,2708).tolist(),2708)
-#data_lst = []
-#for i in range(10):
-#    datasets = copy.deepcopy(dataset)
-#    mask_train, mask_val, mask_test = torch.zeros(2708).type(torch.bool),torch.zeros(2708).type(torch.bool),torch.zeros(2708).type(torch.bool)
-#    if i < 9:
-#        mask_val[index[i*270:(i+1)*270]] = 1
-#        mask_test[index[(i+1)*270:(i+2)*270]] = 1
-#        mask_train[np.delete(index,np.arange(i*270,(i+2)*270,1))] = 1
-#        datasets.data.train_mask = mask_train
-#        datasets.data.val_mask = mask_val
-#        datasets.data.test_mask = mask_test
-#        data_lst.append(DataLoader(datasets, batch_size=1, shuffle=True))
-#    else:
-#        mask_val[index[9*270:]] = 1
-#        mask_test[index[0:270]] = 1
-#        mask_train[np.delete(index,np.arange(1*270,9*270,1))] = 1
-#        datasets.data.train_mask = mask_train
-#        datasets.data.val_mask = mask_val
-#        datasets.data.test_mask = mask_test
-#        data_lst.append(DataLoader(datasets, batch_size=1, shuffle=True))
-
 
 parser = argparse.ArgumentParser(description='Training for PPI')
 parser.add_argument('-n_l', '--n_layers', type=int, default=3,
@@ -133,6 +108,3 @@ for i in np.arange(0, 1, 0.1):
     print(test_acc)
 print(test_accs)
 print(val_accs)
-
-np.savetxt("DropNode_test.txt",test_accs)
-np.savetxt("DropNode_train.txt",train_accs)
