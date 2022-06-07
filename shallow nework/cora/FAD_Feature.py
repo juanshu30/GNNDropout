@@ -125,6 +125,4 @@ for i in np.arange(0.1, 1, 0.1):
 
     accs_mean.append(np.mean(test_accs))
     accs_var.append(np.var(test_accs))
-    
-np.savetxt("/home/shu30/Research_GraphDropout/AAAI/result/GS_FAD_Feature_mean.txt",accs_mean)
-np.savetxt("/home/shu30/Research_GraphDropout/AAAI/result/GS_FAD_Feature_var.txt",accs_var)
+   
