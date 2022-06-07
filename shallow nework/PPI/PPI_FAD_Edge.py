@@ -108,9 +108,9 @@ losses = []
 
 for i in np.arange(0.1, 1, 0.1):
     
-    dataset_train = PPI(root='/home/shu30/CS590/PPI')
-    dataset_val = PPI(root='/home/shu30/CS590/PPI',split="val")
-    dataset_test = PPI(root='/home/shu30/CS590/PPI',split="test")
+    dataset_train = PPI(root='/temp/PPI')
+    dataset_val = PPI(root='/temp/PPI',split="val")
+    dataset_test = PPI(root='/temp/PPI',split="test")
     
     #Define Dataloader
     train_loader = DataLoader(dataset_train, batch_size=1, shuffle=True)
@@ -139,5 +139,3 @@ for i in np.arange(0.1, 1, 0.1):
     test_accs.append(test(test_loader))
     print(test(test_loader))
     
-    
-np.savetxt("/home/shu30/Research_GraphDropout/AAAI/result/GS_PPI_FADE_mean.txt",test_accs)
